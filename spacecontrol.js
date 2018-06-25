@@ -312,7 +312,7 @@
 		noStroke();
 		fill(189, 195, 199);
 		rectMode(CORNER);
-		rect(xj+10, yj-10, barradevida, 5);
+		rect(xj+5, yj-5, barradevida, 5);
 		if (vida > 60) {
 			fill(46, 204, 113);				
 		} else if ( vida > 30){
@@ -321,7 +321,7 @@
 				fill(231, 76, 60);
 		}
 		rectMode(CORNER);
-		rect(xj+10, yj-10, barradevida*(vida/vidamax), 5);
+		rect(xj+5, yj-5, barradevida*(vida/vidamax), 5);
 	}
 	
 	function desenharbarradevidadoboss() {
